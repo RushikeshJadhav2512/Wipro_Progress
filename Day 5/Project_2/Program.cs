@@ -1,0 +1,109 @@
+using System;
+
+// Custom Exception Classes
+class ValidationException : Exception
+{
+    public ValidationException(string message) : base(message) { }
+}
+
+class BusinessRuleException : Exception
+{
+    public BusinessRuleException(string message) : base(message) { }
+}
+
+class ExternalServiceException : Exception
+{
+    public ExternalServiceException(string message) : base(message) { }
+}
+
+// Logger Class
+static class Logger
+{
+    public static void Log(Exception ex)
+    {
+        Console.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] {ex.GetType().Name}: {ex.Message}");
+    }
+
+    public static bool LogIfRequired(Exception ex)
+    {
+        if (ex is ValidationException) return false;  // Skip logging validation errors
+        Logger.Log(ex);
+        return true;
+    }
+}
+
+// OrderService Class
+class OrderService
+{
+    public void PlaceOrder(int quantity, bool paymentServiceDown)
+    {
+        // Validation: Quantity <= 0
+        if (quantity <= 0)
+            throw new ValidationException("Quantity must be greater than 0");
+
+        // Business Rule: Quantity > 100
+        if (quantity > 100)
+            throw new BusinessRuleException("Quantity cannot exceed 100 per order");
+
+        // External Service: Payment gateway unavailable
+        if (paymentServiceDown)
+            throw new ExternalServiceException("Payment gateway is unavailable");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        OrderService orderService = new OrderService();
+
+        Console.WriteLine("=== Exception Filter Demo with Logging ===\n");
+
+        // Test 1: Validation Exception (NOT logged - expected error)
+        try
+        {
+            orderService.PlaceOrder(-5, false);
+        }
+        catch (ValidationException ex) when (!Logger.LogIfRequired(ex))
+        {
+            Console.WriteLine("Validation error occurred (not logged): " + ex.Message);
+        }
+        catch (ValidationException ex)
+        {
+            Console.WriteLine("Validation error: " + ex.Message);
+        }
+
+        // Test 2: Business Rule Exception (LOGGED - critical)
+        try
+        {
+            orderService.PlaceOrder(150, false);
+        }
+        catch (BusinessRuleException ex) when (Logger.LogIfRequired(ex))
+        {
+            Console.WriteLine("Business rule violation (logged): " + ex.Message);
+        }
+
+        // Test 3: External Service Exception (LOGGED - critical)
+        try
+        {
+            orderService.PlaceOrder(50, true);
+        }
+        catch (ExternalServiceException ex) when (Logger.LogIfRequired(ex))
+        {
+            Console.WriteLine("External service failure (logged): " + ex.Message);
+        }
+
+        // Test 4: Valid Order (No exception)
+        try
+        {
+            orderService.PlaceOrder(50, false);
+            Console.WriteLine("Order placed successfully!");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Unexpected error: " + ex.Message);
+        }
+
+        Console.WriteLine("\n=== Demo Complete ===");
+    }
+}
