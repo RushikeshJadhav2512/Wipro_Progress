@@ -1,0 +1,5 @@
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 3/Bank Management System/Bank_account_management system/obj/Debug/net8.0/Day3_bankAccountManagementSysytemIN_CSharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 3/Bank Management System/Bank_account_management system/obj/Debug/net8.0/Day3_bankAccountManagementSysytemIN_CSharp.AssemblyInfoInputs.cache
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 3/Bank Management System/Bank_account_management system/obj/Debug/net8.0/Day3_bankAccountManagementSysytemIN_CSharp.AssemblyInfo.cs
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 3/Bank Management System/Bank_account_management system/obj/Debug/net8.0/Day3_bankAccountManagementSysytemIN_CSharp.csproj.CoreCompileInputs.cache
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 3/Bank Management System/Bank_account_management system/obj/Debug/net8.0/Day3_bankAccountManagementSysytemIN_CSharp.sourcelink.json

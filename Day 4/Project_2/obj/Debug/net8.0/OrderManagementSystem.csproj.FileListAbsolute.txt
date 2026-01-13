@@ -1,0 +1,15 @@
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 4/Project_2/bin/Debug/net8.0/OrderManagementSystem
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 4/Project_2/bin/Debug/net8.0/OrderManagementSystem.deps.json
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 4/Project_2/bin/Debug/net8.0/OrderManagementSystem.runtimeconfig.json
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 4/Project_2/bin/Debug/net8.0/OrderManagementSystem.dll
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 4/Project_2/bin/Debug/net8.0/OrderManagementSystem.pdb
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 4/Project_2/obj/Debug/net8.0/OrderManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 4/Project_2/obj/Debug/net8.0/OrderManagementSystem.AssemblyInfoInputs.cache
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 4/Project_2/obj/Debug/net8.0/OrderManagementSystem.AssemblyInfo.cs
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 4/Project_2/obj/Debug/net8.0/OrderManagementSystem.csproj.CoreCompileInputs.cache
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 4/Project_2/obj/Debug/net8.0/OrderManagementSystem.sourcelink.json
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 4/Project_2/obj/Debug/net8.0/OrderManagementSystem.dll
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 4/Project_2/obj/Debug/net8.0/refint/OrderManagementSystem.dll
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 4/Project_2/obj/Debug/net8.0/OrderManagementSystem.pdb
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 4/Project_2/obj/Debug/net8.0/OrderManagementSystem.genruntimeconfig.cache
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 4/Project_2/obj/Debug/net8.0/ref/OrderManagementSystem.dll

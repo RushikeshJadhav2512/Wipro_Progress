@@ -1,0 +1,15 @@
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 5/Project_1/bin/Debug/net10.0/CustomExceptionDemo
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 5/Project_1/bin/Debug/net10.0/CustomExceptionDemo.deps.json
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 5/Project_1/bin/Debug/net10.0/CustomExceptionDemo.runtimeconfig.json
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 5/Project_1/bin/Debug/net10.0/CustomExceptionDemo.dll
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 5/Project_1/bin/Debug/net10.0/CustomExceptionDemo.pdb
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 5/Project_1/obj/Debug/net10.0/CustomExceptionDemo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 5/Project_1/obj/Debug/net10.0/CustomExceptionDemo.AssemblyInfoInputs.cache
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 5/Project_1/obj/Debug/net10.0/CustomExceptionDemo.AssemblyInfo.cs
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 5/Project_1/obj/Debug/net10.0/CustomExceptionDemo.csproj.CoreCompileInputs.cache
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 5/Project_1/obj/Debug/net10.0/CustomExceptionDemo.sourcelink.json
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 5/Project_1/obj/Debug/net10.0/CustomExceptionDemo.dll
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 5/Project_1/obj/Debug/net10.0/refint/CustomExceptionDemo.dll
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 5/Project_1/obj/Debug/net10.0/CustomExceptionDemo.pdb
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 5/Project_1/obj/Debug/net10.0/CustomExceptionDemo.genruntimeconfig.cache
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 5/Project_1/obj/Debug/net10.0/ref/CustomExceptionDemo.dll
