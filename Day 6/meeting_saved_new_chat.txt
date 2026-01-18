@@ -1,0 +1,107 @@
+2026-01-14 08:56:13 From Faculty (Olympus) to Everyone:
+	Hi everyone, good morning !!
+	
+2026-01-14 08:56:29 From Rushikesh Jadhav . to Everyone:
+	Good morning Sir
+	
+2026-01-14 08:56:30 From Kavya Sri Polimeni to Everyone:
+	Good morning Sir
+	
+2026-01-14 08:56:32 From Guntaka Likitha Ram . to Everyone:
+	good morning sir
+	
+2026-01-14 08:56:32 From Mule Haritha to Everyone:
+	good morning sir
+	
+2026-01-14 08:56:33 From S Y Muskhan . to Everyone:
+	Good Morning Sir
+	
+2026-01-14 08:56:35 From Amisha Kumari to Everyone:
+	Good morning sir
+	
+2026-01-14 08:56:37 From Dasari Keerthi Sivani to Everyone:
+	Good morning sir
+	
+2026-01-14 08:56:38 From Nitika . to Everyone:
+	Good morning sir
+	
+2026-01-14 08:56:40 From Guntaka Likitha Ram . to Everyone:
+	happy boghi
+	
+2026-01-14 08:56:48 From Devika Parimi to Everyone:
+	Good Morning sir
+	
+2026-01-14 08:57:02 From Mule Haritha to Everyone:
+	Happy Bhogi sir
+	
+2026-01-14 08:57:12 From MURTHY HEMANJALI to Everyone:
+	good morning sir
+	
+2026-01-14 08:58:35 From Faculty (Olympus) to Everyone:
+	Happy makar Sankranti and Pongal to everyone. We will start shortly.
+	Garla Dheeraj:🎉
+	
+2026-01-14 08:59:09 From Kavya Sri Polimeni to Everyone:
+	Thank you sir
+	
+2026-01-14 09:00:08 From jyothi sree . to Everyone:
+	Thankyou sir, wish u the same
+	
+2026-01-14 09:05:43 From Desu Shree Uma Maheswari to Everyone:
+	thankyou sir
+	
+2026-01-14 09:16:32 From Majjari Rekha . to Everyone:
+	thank u sir
+	
+2026-01-14 10:15:39 From Faculty (Olympus) to Everyone:
+	//Comon usecase of colelction ie   Stack and Queue in  reallife scenario are as below :
+	        //1. Stack : Undo mechanism in text editors , Browser history etc
+	        //2. Queue : Print spooling , CPU task scheduling , Call center systems etc
+	        //3. Priority Queue : Emergency room triage ,
+	
+2026-01-14 10:15:52 From Faculty (Olympus) to Everyone:
+	Task scheduling in operating systems , Network packet routing etc
+	        //4. Deque : Browser history navigation , Undo/Redo functionality in applications , Task scheduling with varying priorities etc
+	        //5. Concurrent Collections : Real-time data processing , Multi-threaded web servers , Parallel computing tasks etc
+	        //6. list use cases : Data binding in UI frameworks , Implementing stacks and queues , Storing collections of items for processing etc
+	
+2026-01-14 10:15:55 From Faculty (Olympus) to Everyone:
+	
+	
+	
+	        //Step1: Define a stack to hold integer values ex.  
+	        //Step2: Push some values onto the stack
+	        //Step3: Pop a value from the stack and display it
+	        //Step4: Peek at the top value of the stack without removing it( All fucntinoality are provided by Stack class in System.Collections.Generic namespace)
+	        //Step5: Check if the stack contains a specific value( Searching functionality)
+	        //Step6: Display the current count of items in the stack(Using Count property of Stack class)
+	        //Step7: Clear the stack of all items(Using Clear method of Stack class)
+	
+2026-01-14 10:45:30 From Faculty (Olympus) to Everyone:
+	Screenshot 2026-01-14 at 104523.png
+	
+2026-01-14 12:57:26 From Faculty (Olympus) to Everyone:
+	List<T>
+	Dictionary<TKey, TValue>
+	HashSet<T>
+	Queue<T>
+	Stack<T>
+	SortedList<TKey, TValue>
+	ConcurrentDictionary<TKey, TValue> (enterprise relevance)
+	
+2026-01-14 12:58:08 From Suhani Saluja . to Everyone:
+	sir can u show the solution once ?
+	
+2026-01-14 13:34:05 From Faculty (Olympus) to Everyone:
+	https://build.microsoft.com/en-US/home
+	
+2026-01-14 13:39:03 From Faculty (Olympus) to Everyone:
+	Lambda expressions are anonymous functions that simplify code, especially when working with LINQ, collections, and functional programming constructs in C#.
+	
+2026-01-14 16:56:41 From KORAMUTLA SWARNALATHA . to Everyone:
+	sir do we have to watch all videos and reach 100% or attempting assignment is enough
+	
+2026-01-14 17:43:52 From Faculty (Olympus) to Everyone:
+	Replying to "sir do we have to watch all videos and reach 100% ...":
+	Attempting assignment is enough, video watching is not mandatory
+	

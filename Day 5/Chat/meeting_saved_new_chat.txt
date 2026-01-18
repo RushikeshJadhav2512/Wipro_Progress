@@ -1,0 +1,460 @@
+2026-01-13 08:57:35 From Faculty (Olympus) to Everyone:
+	Hi everyone, good morning!!
+	
+2026-01-13 08:57:47 From Surya Mounika Surapaneni to Everyone:
+	Good Morning Sir
+	
+2026-01-13 08:57:49 From Amisha Kumari to Everyone:
+	Good morning sir
+	
+2026-01-13 08:57:50 From Smithesh Chanda to Everyone:
+	Good Morning Sir
+	
+2026-01-13 08:57:51 From Mule Haritha to Everyone:
+	Good Morning sir
+	
+2026-01-13 08:57:51 From Ayan Kumar Paul . to Everyone:
+	Good Morning Sir
+	
+2026-01-13 08:57:55 From Rushikesh Jadhav . to Everyone:
+	Good morning sir
+	
+2026-01-13 08:57:58 From Mulinti Lakshmi Prasanna to Everyone:
+	good morning sir
+	
+2026-01-13 08:58:00 From THUMATI TULASI VISHNU PRIYA . to Everyone:
+	GOOD MORNING SIR
+	
+2026-01-13 08:58:02 From Kavya Sri Polimeni to Everyone:
+	good morning sir
+	
+2026-01-13 08:58:08 From MURTHY HEMANJALI to Everyone:
+	good morning sir
+	
+2026-01-13 08:58:15 From Ashwin Shedge to Everyone:
+	Good Morning Sir
+	
+2026-01-13 08:58:21 From Desu Shree Uma Maheswari to Everyone:
+	good morning sir
+	
+2026-01-13 08:58:32 From Faculty (Olympus) to Everyone:
+	We will start in few minutes .
+	
+2026-01-13 08:58:35 From Mihika Ganta to Everyone:
+	Good Morning Sir
+	
+2026-01-13 08:58:40 From Guntaka Likitha Ram . to Everyone:
+	good morning sir
+	
+2026-01-13 08:58:43 From Dasari Keerthi Sivani to Everyone:
+	Good morning sir
+	
+2026-01-13 08:58:51 From KORAMUTLA SWARNALATHA . to Everyone:
+	good morning sir
+	
+2026-01-13 09:01:16 From Amita . to Everyone:
+	good morning sir
+	
+2026-01-13 09:41:29 From Faculty (Olympus) to Everyone:
+	//In C#.NET We use Exception Handling for handling errors and exceptions in a controlled manner.
+	//With E.H we can gracefully handle runtime errors, maintain program stability, and provide meaningful feedback to users.
+	//hence Below staeps are used to implement Exception Handling in C#.NET
+	//in .NET There is gloabl exceptino class called System.Exception from where all exception classes are derived.
+	//hence .NET follows herirachal exception handling mechanism. Where base class are used to catch general exceptions and derived classes are used to catch specific exceptions.
+	//ex : System.IO.IOException is derived from System.Exception class.
+	//ex: System.DivideByZeroException is derived from System.ArithmeticException which is derived from System.Exception class.
+	
+2026-01-13 09:54:10 From Faculty (Olympus) to Everyone:
+	//Common sceanrio where exception handling is used in C#.NET
+	//1. File I/O Operations: Handling exceptions when reading from or writing to files.
+	//2. Database Operations: Handling exceptions during database connections and queries.
+	//3. Network Communications: Handling exceptions during network requests and responses.
+	//4. User Input Validation: Handling exceptions when parsing and validating user inputs.
+	
+2026-01-13 09:54:13 From Faculty (Olympus) to Everyone:
+	//5. Resource Management: Ensuring proper release of resources like file handles, database connections etc. using finally block or using statement.
+	//6. API Calls: Handling exceptions when calling external APIs or services.
+	//7. Multithreading: Handling exceptions in multi-threaded applications to prevent crashes and ensure thread safety.
+	//8. Configuration Management: Handling exceptions when reading configuration settings from files or environment variables.
+	//9. Data Serialization/Deserialization: Handling exceptions when converting data to/from formats like JSON, XML etc.
+	//10. Custom Exception Handling: Creating and handling custom exception classes for specific application scenarios.
+	
+2026-01-13 10:15:08 From Faculty (Olympus) to Everyone:
+	public class DailyLimitExceededException : Exception
+	 {
+	     //Here I can define properties and methods specific to this exception. as well as constructors.
+	     //using ultimate base class System.Exception to derive my custom exception class.
+	     public DailyLimitExceededException(string message) : base(message)
+	     //calling base class constructor inside derived class constructor.
+	     {
+	
+	     }
+	 }
+	
+2026-01-13 10:15:18 From Faculty (Olympus) to Everyone:
+	//Creating a account class that act as a busineslogic class for implementing user define exception 
+	 class BankAccount //business logic class
+	 {
+	     private decimal dailyLimit = 1000; //daily limit for transactions
+	     private decimal totalTransactionsToday = 0; //to keep track of total transactions made today
+	     public void MakeTransaction(decimal amount)
+	     {
+	         if (totalTransactionsToday + amount > dailyLimit)
+	         {
+	             //throwing user define exception when daily limit is exceeded.
+	             throw new DailyLimitExceededException("Daily transaction limit exceeded.");
+	         }
+	         totalTransactionsToday += amount;
+	         Console.WriteLine($"Transaction of {amount} completed successfully.");
+	     }
+	 }
+	
+2026-01-13 10:15:26 From Faculty (Olympus) to Everyone:
+	//Any class that derives from System.Exception is considered an exception class in C#.NET.
+	//If any child class inherits from DailyLimitExceededException, it will also be considered an exception class.
+	//hence we can create a hierarchy of exception classes in C#.NET by deriving custom exception classes from existing exception classes.
+	
+2026-01-13 11:05:04 From Chhavi Ganvir to Everyone:
+	Chhavi Ganvir
+	
+2026-01-13 11:05:05 From AMAN . to Everyone:
+	Aman
+	
+2026-01-13 11:05:12 From Amita . to Everyone:
+	AMITA
+	
+2026-01-13 11:05:39 From Guntaka Likitha Ram . to Everyone:
+	Likitha Ram
+	
+2026-01-13 11:05:58 From Gona Saicharan . to Everyone:
+	Saicharan
+	
+2026-01-13 11:06:00 From jyothi sree . to Everyone:
+	Jyothi Sree
+	
+2026-01-13 11:06:00 From THUMATI TULASI VISHNU PRIYA . to Everyone:
+	Vishnu priya
+	
+2026-01-13 11:06:32 From Surya Mounika Surapaneni to Everyone:
+	Mounika
+	
+2026-01-13 11:07:23 From Gunugunuri Malleswari to Everyone:
+	Malleswari
+	
+2026-01-13 11:11:08 From Ashwin Shedge to Everyone:
+	Ashwin
+	
+2026-01-13 11:11:14 From Garla Dheeraj to Everyone:
+	Dheeraj
+	
+2026-01-13 11:11:19 From Nitika . to Everyone:
+	Nitika
+	
+2026-01-13 11:11:23 From Rushikesh Jadhav . to Everyone:
+	Rushikesh
+	
+2026-01-13 11:14:23 From Surya Mounika Surapaneni to Everyone:
+	https://github.com/SURAPANENI-SURYA-MOUNIKA
+	
+2026-01-13 11:14:28 From AMAN . to Everyone:
+	https://github.com/amannnyadav/WIPRO-NGA---.Net-Full-Stack-React.git
+	
+2026-01-13 11:14:50 From Ashwin Shedge to Everyone:
+	https://github.com/Ashwinshe/wiproA
+	
+2026-01-13 11:15:34 From Guntaka Likitha Ram . to Everyone:
+	https://github.com/liki-562
+	
+2026-01-13 11:16:12 From Dasari Keerthi Sivani to Everyone:
+	https://github.com/kinnukeer?tab=repositories
+	
+2026-01-13 11:16:34 From DAMAN DEEP SAINI . to Everyone:
+	https://github.com/daman-11?tab=repositories
+	
+2026-01-13 11:18:03 From Garla Dheeraj to Everyone:
+	https://github.com/dheerajraina20-art
+	
+2026-01-13 11:18:04 From Desu Shree Uma Maheswari to Everyone:
+	https://github.com/desushreeumamaheswari2004-oss
+	
+2026-01-13 11:19:44 From Mihika Ganta to Everyone:
+	https://github.com/MihikaGanta1?tab=repositories
+	
+2026-01-13 11:21:46 From Suhani Saluja . to Everyone:
+	https://github.com/suhaaanii/Wipro-Training
+	
+2026-01-13 11:23:12 From Mule Haritha to Everyone:
+	https://github.com/HarithaMule?tab=repositories
+	
+2026-01-13 11:24:10 From Rushikesh Jadhav . to Everyone:
+	https://github.com/RushikeshJadhav2512/Wipro_Progress
+	
+2026-01-13 11:24:26 From Amisha Kumari to Everyone:
+	https://github.com/Amisha-kumari0204/WIPRO-Training
+	
+2026-01-13 11:24:39 From Gunugunuri Malleswari to Everyone:
+	https://github.com/Malleswarigunugunuri
+	
+2026-01-13 11:26:43 From KORAMUTLA SWARNALATHA . to Everyone:
+	https://github.com/swarnak-tech?tab=repositories
+	
+2026-01-13 11:30:35 From Mythili Chirumamilla . to Everyone:
+	https://github.com/Mythilichirumamilla
+	
+2026-01-13 11:30:48 From Kethanapalli Durga Akhila to Everyone:
+	https://github.com/durgaakhila02
+	
+2026-01-13 11:31:33 From Devika Parimi to Everyone:
+	https://github.com/devika3002/wipro-Training
+	
+2026-01-13 11:41:10 From Nitika . to Everyone:
+	https://github.com/nitika2717/Wipro-NGA-.NET-REACT-MSD-
+	
+2026-01-13 11:43:13 From Faculty (Olympus) to Rushikesh Jadhav . (direct message):
+	Hi Rushikesh please join the breakout room.
+	
+2026-01-13 11:46:11 From GORE DEVANSH RAVI . to Everyone:
+	https://github.com/devanshgore2163/Wipro_Training_VSCode
+	
+2026-01-13 11:47:32 From Chhavi Ganvir to Everyone:
+	https://github.com/GANVIR2003
+	
+2026-01-13 11:56:44 From MURTHY HEMANJALI to Everyone:
+	https://github.com/hemanjali0519
+	
+2026-01-13 12:30:41 From S Y Muskhan . to Everyone:
+	https://github.com/sy-muskhan/WIPRO_NGA_TRANING
+	
+2026-01-13 12:31:16 From Pranjali Jadhav to Everyone:
+	https://github.com/PranjaliJadhav12/Wipro-Training
+	
+2026-01-13 12:31:25 From Rekha Majjari to Everyone:
+	sir my laptop is not working properly(lagging) so im practicing in onlinecompiler
+	
+2026-01-13 12:33:05 From Faculty (Olympus) to Everyone:
+	reply to this thread we you are able to create account
+	
+2026-01-13 12:33:36 From Kavya Sri Polimeni to Everyone:
+	Replying to "reply to this thread we you are able to create acc...":
+	No sir
+	
+2026-01-13 12:33:38 From Surya Mounika Surapaneni to Everyone:
+	Replying to "reply to this thread we you are able to create acc...":
+	Yes Sir
+	
+2026-01-13 12:34:01 From Mule Haritha to Everyone:
+	Replying to "reply to this thread we you are able to create acc...":
+	No sir
+	
+2026-01-13 12:34:16 From Rushikesh Jadhav . to Everyone:
+	Replying to "reply to this thread we you are able to create acc...":
+	No sir
+	
+2026-01-13 12:34:32 From Desu Shree Uma Maheswari to Everyone:
+	no sir
+	
+2026-01-13 12:34:36 From KORAMUTLA SWARNALATHA . to Everyone:
+	Replying to "reply to this thread we you are able to create acc...":
+	no sir
+	
+2026-01-13 12:34:37 From Ayan Kumar Paul . to Everyone:
+	Replying to "reply to this thread we you are able to create acc...":
+	No sir
+	
+2026-01-13 12:34:38 From MURTHY HEMANJALI to Everyone:
+	Replying to "reply to this thread we you are able to create acc...":
+	no sir
+	
+2026-01-13 12:34:50 From Mulinti Lakshmi Prasanna to Everyone:
+	Replying to "reply to this thread we you are able to create acc...":
+	no sir
+	
+2026-01-13 12:34:56 From Devika Parimi to Everyone:
+	Replying to "reply to this thread we you are able to create acc...":
+	no sir
+	
+2026-01-13 12:34:56 From Rutuja Dautpure to Everyone:
+	No sir
+	
+2026-01-13 12:35:00 From Kethanapalli Durga Akhila to Everyone:
+	Replying to "reply to this thread we you are able to create acc...":
+	yes sir
+	
+2026-01-13 12:35:12 From Rekha Majjari to Everyone:
+	Replying to "reply to this thread we you are able to create acc...":
+	no sir
+	
+2026-01-13 12:35:26 From Mihika Ganta to Everyone:
+	Replying to "reply to this thread we you are able to create acc...":
+	no sir
+	
+2026-01-13 12:35:28 From Chhavi Ganvir to Everyone:
+	Replying to "reply to this thread we you are able to create acc...":
+	No sir
+	
+2026-01-13 12:35:29 From DAMAN DEEP SAINI . to Everyone:
+	Replying to "reply to this thread we you are able to create acc...":
+	No sir
+	
+2026-01-13 12:35:33 From Smithesh Chanda to Everyone:
+	Replying to "reply to this thread we you are able to create acc...":
+	Yes sir
+	
+2026-01-13 12:35:38 From Garla Dheeraj to Everyone:
+	No sir
+	
+2026-01-13 12:35:42 From THUMATI TULASI VISHNU PRIYA . to Everyone:
+	Replying to "reply to this thread we you are able to create acc...":
+	No sir
+	
+2026-01-13 12:35:52 From Chhavi Ganvir to Everyone:
+	Replying to "reply to this thread we you are able to create acc...":
+	No Sir
+	
+2026-01-13 12:37:12 From Sahil Kachare . to Everyone:
+	no sir
+	
+2026-01-13 12:38:37 From Mythili Chirumamilla . to Everyone:
+	Replying to "reply to this thread we you are able to create acc...":
+	no sir
+	
+2026-01-13 12:39:16 From Ashwin Shedge to Everyone:
+	Replying to "reply to this thread we you are able to create acc...":
+	no sir
+	
+2026-01-13 12:39:24 From Pranjali Jadhav to Everyone:
+	Replying to "reply to this thread we you are able to create acc...":
+	No Sir
+	
+2026-01-13 12:39:47 From Guntaka Likitha Ram . to Everyone:
+	Replying to "reply to this thread we you are able to create acc...":
+	no sir
+	
+2026-01-13 12:59:07 From Faculty (Olympus) to Everyone:
+	//We use exception filter to add conditions to catch blocks.
+	 //ex: catch(DivideByZeroException ex) when (some condition) { //handle exception }
+	 //ex in terms of user define exception:
+	 //catch(DailyLimitExceededException ex) when (some condition) { //handle exception }
+	 //condition can be any boolean expression that evaluates to true or false. like checking exception properties or other variables.
+	
+	 //Most common implementatino of exception filter is logging.
+	 //Case study based on logging:
+	 //if there is a need to log only specific exceptions based on certain conditions. like logging only critical exceptions or exceptions occurring in specific modules.
+	 //we can use exception filters to achieve this.
+	 //Step 1: Define a logging method that logs exception details based on certain conditions.
+	 //ex. LogException(Exception ex) to log exception details to a file, database or monitoring system.
+	 //ex. we can add conditions inside this method to log only specific exceptions.
+	
+2026-01-13 12:59:09 From Faculty (Olympus) to Everyone:
+	//Step 2: Use exception filters in catch blocks to call the logging method based on certain conditions.
+	 //Step 3: Handle the exception as needed after logging.
+	 //Step 4: Test the implementation to ensure that only the desired exceptions are logged based on the specified conditions.
+	 //Step 5: Refine the conditions and logging logic as needed based on feedback and requirements.
+	
+2026-01-13 13:04:45 From Faculty (Olympus) to Everyone:
+	Business Scenario
+	A large enterprise order-processing system handles:
+	User input validation
+	
+	Business rule checks
+	
+	External service calls
+	
+	Database operations
+	objective :  
+	The logging team reports log noise:
+	Too many logs for expected business errors
+	
+	Critical failures getting buriedThe system must log only critical exceptions, while handling known exceptions silently or gracefully.
+	
+2026-01-13 13:07:56 From Faculty (Olympus) to Everyone:
+	Screenshot 2026-01-13 at 130752.png
+	
+2026-01-13 14:56:06 From Faculty (Olympus) to Everyone:
+	Why are exception filters more efficient?
+	When should exception filters be preferred?
+	Can exception filters modify exceptions?
+	Are exception filters supported in async methods?
+	Difference between filtering vs re-throwing?
+	
+2026-01-13 15:05:21 From Faculty (Olympus) to Everyone:
+	Milestone - 4 case study based on application of (Power platform + Power Bi Dashboard + Dynamics CRM+ Data driven processes using azure services ) for 100 marks
+	
+2026-01-13 15:29:30 From Faculty (Olympus) to Everyone:
+	//creating a file using File.Create() method in default directory
+	string filePath = "demo.txt";
+	using (FileStream fs = File.Create(filePath))
+	{
+	    // File created successfully
+	    if (File.Exists(filePath))
+	    {
+	        Console.WriteLine("File created successfully: " + filePath);
+	    }
+	}
+	
+	//Writing to the file using StreamWriter class
+	using (StreamWriter sw = new StreamWriter(filePath))
+	{
+	    sw.WriteLine("Hello, this is a demo file created today.");
+	    sw.WriteLine("This file is created to demonstrate file handling in C#.");
+	}
+	
+2026-01-13 15:34:22 From Faculty (Olympus) to Everyone:
+	//File handling in C# is done using the System.IO namespace.
+	//here we have all the classes and methods to work with files and directories.
+	//Steps for implementing file handling 
+	//Step 1: using System.IO;
+	//Step 2: Create a file using File.Create() method.
+	//Step 3: Write to the file using StreamWriter class.( we have sperate classes for reading different type pof data ie
+	// reading char can be done with StreamReader class, reading binary data can be done with BinaryReader class)
+	//Writing to a file can be done in two ways:
+	//1. Using StreamWriter class : 
+	//2. Using File.WriteAllText() method.
+	//Step 4: Read from the file using StreamReader class.
+	//Step 5: Delete the file using File.Delete() method.
+	//Step 6: Check if the file exists using File.Exists() method.
+	
+2026-01-13 16:15:12 From Faculty (Olympus) to Everyone:
+	//in C# we have following types of file handling classes:
+	//1. StreamReader and StreamWriter: These classes are used for reading and writing text files.
+	//2. BinaryReader and BinaryWriter: These classes are used for reading and writing binary files.
+	//3. FileStream: This class is used for reading and writing files as a stream of bytes. example: FileStream fs = new FileStream("file.txt", FileMode.OpenOrCreate);
+	//4. File: This class provides static methods for creating, copying, deleting, moving, and opening files, and helps in the creation of FileStream objects.
+	//5. Directory: This class provides static methods for creating, moving, and enumerating through directories and subdirectories.
+	//6. Path: This class provides methods for working with file and directory path strings.
+	//These classes provide a comprehensive set of tools for file handling in C#.
+	
+2026-01-13 16:18:50 From Faculty (Olympus) to Everyone:
+	//below are the types of modes while working with files in C#:
+	//read: Opens the file for reading only. An exception is thrown if the file does not exist.
+	//write: Opens the file for writing only. If the file exists, it is overwritten. If the file does not exist, a new file is created.
+	//append: Opens the file for writing only. If the file exists, the write operation appends data to the end of the file. If the file does not exist, a new file is created.
+	//open: Opens the file if it exists. An exception is thrown if the file does not exist.
+	//openorcreate: Opens the file if it exists; otherwise, a new file is created.
+	//truncate: Opens the file for writing only and truncates the file to zero bytes. An exception is thrown if the file does not exist.
+	//These modes are specified using the FileMode enumeration when creating a FileStream object.
+	
+2026-01-13 17:29:03 From Faculty (Olympus) to Everyone:
+	{
+	  "name": "Private Test Case 1",
+	  "type": "stdin",
+	  "stdin": "1\n1984\nGeorge Orwell\n0987654321\n1\nTo Kill a Mockingbird\nHarper Lee\n1122334455\n2\n0987654321\n3\n4\n",
+	  "expected_output": "Choose an option:\n1. Add Book\n2. Remove Book\n3. List Books\n4. Exit\nEnter book title:\nEnter book author:\nEnter book ISBN:\nBook added successfully.\nChoose an option:\n1. Add Book\n2. Remove Book\n3. List Books\n4. Exit\nEnter book title:\nEnter book author:\nEnter book ISBN:\nBook added successfully.\nChoose an option:\n1. Add Book\n2. Remove Book\n3. List Books\n4. Exit\nEnter book ISBN to remove:\nBook removed successfully.\nChoose an option:\n1. Add Book\n2. Remove Book\n3. List Books\n4. Exit\nListing all books:\nTitle: To Kill a Mockingbird, Author: Harper Lee, ISBN: 1122334455\nChoose an option:\n1. Add Book\n2. Remove Book\n3. List Books\n4. Exit\n",
+	  "weightage_percentage": 50
+	}
+	
+2026-01-13 17:29:24 From Faculty (Olympus) to Everyone:
+	{
+	  "name": "Private Test Case 2",
+	  "type": "stdin",
+	  "stdin": "1\nThe Catcher in the Rye\nJ.D. Salinger\n2233445566\n1\nMoby Dick\nHerman Melville\n6677889900\n3\n2\n2233445566\n3\n4\n",
+	  "expected_output": "Choose an option:\n1. Add Book\n2. Remove Book\n3. List Books\n4. Exit\nEnter book title:\nEnter book author:\nEnter book ISBN:\nBook added successfully.\nChoose an option:\n1. Add Book\n2. Remove Book\n3. List Books\n4. Exit\nEnter book title:\nEnter book author:\nEnter book ISBN:\nBook added successfully.\nChoose an option:\n1. Add Book\n2. Remove Book\n3. List Books\n4. Exit\nListing all books:\nTitle: The Catcher in the Rye, Author: J.D. Salinger, ISBN: 2233445566\nTitle: Moby Dick, Author: Herman Melville, ISBN: 6677889900\nChoose an option:\n1. Add Book\n2. Remove
+	
+2026-01-13 17:29:26 From Faculty (Olympus) to Everyone:
+	Book\n3. List Books\n4. Exit\nEnter book ISBN to remove:\nBook removed successfully.\nChoose an option:\n1. Add Book\n2. Remove Book\n3. List Books\n4. Exit\nListing all books:\nTitle: Moby Dick, Author: Herman Melville, ISBN: 6677889900\nChoose an option:\n1. Add Book\n2. Remove Book\n3. List Books\n4. Exit\n",
+	  "weightage_percentage": 50
+	}
+	
+2026-01-13 17:44:52 From Faculty (Olympus) to Everyone:
+	Screenshot 2026-01-13 at 174446.png
+	
