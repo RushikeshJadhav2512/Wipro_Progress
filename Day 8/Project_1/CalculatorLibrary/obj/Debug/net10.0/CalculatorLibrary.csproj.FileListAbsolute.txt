@@ -1,0 +1,12 @@
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 8/Project_1/CalculatorLibrary/bin/Debug/net10.0/CalculatorLibrary.deps.json
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 8/Project_1/CalculatorLibrary/bin/Debug/net10.0/CalculatorLibrary.dll
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 8/Project_1/CalculatorLibrary/bin/Debug/net10.0/CalculatorLibrary.pdb
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 8/Project_1/CalculatorLibrary/obj/Debug/net10.0/CalculatorLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 8/Project_1/CalculatorLibrary/obj/Debug/net10.0/CalculatorLibrary.AssemblyInfoInputs.cache
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 8/Project_1/CalculatorLibrary/obj/Debug/net10.0/CalculatorLibrary.AssemblyInfo.cs
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 8/Project_1/CalculatorLibrary/obj/Debug/net10.0/CalculatorLibrary.csproj.CoreCompileInputs.cache
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 8/Project_1/CalculatorLibrary/obj/Debug/net10.0/CalculatorLibrary.sourcelink.json
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 8/Project_1/CalculatorLibrary/obj/Debug/net10.0/CalculatorLibrary.dll
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 8/Project_1/CalculatorLibrary/obj/Debug/net10.0/refint/CalculatorLibrary.dll
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 8/Project_1/CalculatorLibrary/obj/Debug/net10.0/CalculatorLibrary.pdb
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 8/Project_1/CalculatorLibrary/obj/Debug/net10.0/ref/CalculatorLibrary.dll

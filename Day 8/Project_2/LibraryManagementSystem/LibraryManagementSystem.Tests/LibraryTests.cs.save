@@ -1,0 +1,79 @@
+using NUnit.Framework;
+using LibraryManagementSystem.Core.Models;
+using LibraryManagementSystem.Core.Services;
+using Assert = NUnit.Framework.Assert;
+namespace LibraryManagementSystem.Tests
+{
+    public class LibraryTests
+    {
+        private Library _library;
+
+        [SetUp]
+        public void Setup()
+        {
+            _library = new Library();
+        }
+
+        [Test]
+        public void AddBook_ShouldAddBookToLibrary()
+        {
+            var book = new Book("1984", "George Orwell", "ISBN001");
+
+            _library.AddBook(book);
+
+            Assert.AreEqual(1, _library.Books.Count);
+        }
+
+        [Test]
+        public void RegisterBorrower_ShouldAddBorrower()
+        {
+            var borrower = new Borrower("John", "CARD001");
+
+            _library.RegisterBorrower(borrower);
+
+            Assert.AreEqual(1, _library.Borrowers.Count);
+        }
+
+        [Test]
+        public void BorrowBook_ShouldMarkBookAsBorrowed()
+        {
+            var book = new Book("Clean Code", "Robert Martin", "ISBN002");
+            var borrower = new Borrower("Alice", "CARD002");
+
+            _library.AddBook(book);
+            _library.RegisterBorrower(borrower);
+
+            _library.BorrowBook("ISBN002", "CARD002");
+
+            Assert.IsTrue(book.IsBorrowed);
+            Assert.AreEqual(1, borrower.BorrowedBooks.Count);
+        }
+
+        [Test]
+        public void ReturnBook_ShouldMakeBookAvailableAgain()
+        {
+            var book = new Book("Domain Driven Design", "Eric Evans", "ISBN003");
+            var borrower = new Borrower("Bob", "CARD003");
+
+            _library.AddBook(book);
+            _library.RegisterBorrower(borrower);
+            _library.BorrowBook("ISBN003", "CARD003");
+
+            _library.ReturnBook("ISBN003", "CARD003");
+
+            Assert.IsFalse(book.IsBorrowed);
+            Assert.AreEqual(0, borrower.BorrowedBooks.Count);
+        }
+
+        [Test]
+        public void ViewBooksAndBorrowers_ShouldReturnCorrectLists()
+        {
+            _library.AddBook(new Book("Book1", "Author1", "B1"));
+            _library.RegisterBorrower(new Borrower("User1", "C1"));
+
+            Assert.AreEqual(1, _library.ViewBooks().Count);
+            Assert.AreEqual(1, _library.ViewBorrowers().Count);
+        }
+    }
+}
+

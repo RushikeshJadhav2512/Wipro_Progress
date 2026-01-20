@@ -1,0 +1,12 @@
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 8/Project_2/LibraryManagementSystem/LibraryManagementSystem.Core/bin/Debug/net10.0/LibraryManagementSystem.Core.deps.json
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 8/Project_2/LibraryManagementSystem/LibraryManagementSystem.Core/bin/Debug/net10.0/LibraryManagementSystem.Core.dll
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 8/Project_2/LibraryManagementSystem/LibraryManagementSystem.Core/bin/Debug/net10.0/LibraryManagementSystem.Core.pdb
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 8/Project_2/LibraryManagementSystem/LibraryManagementSystem.Core/obj/Debug/net10.0/LibraryManagementSystem.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 8/Project_2/LibraryManagementSystem/LibraryManagementSystem.Core/obj/Debug/net10.0/LibraryManagementSystem.Core.AssemblyInfoInputs.cache
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 8/Project_2/LibraryManagementSystem/LibraryManagementSystem.Core/obj/Debug/net10.0/LibraryManagementSystem.Core.AssemblyInfo.cs
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 8/Project_2/LibraryManagementSystem/LibraryManagementSystem.Core/obj/Debug/net10.0/LibraryManagementSystem.Core.csproj.CoreCompileInputs.cache
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 8/Project_2/LibraryManagementSystem/LibraryManagementSystem.Core/obj/Debug/net10.0/LibraryManagementSystem.Core.sourcelink.json
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 8/Project_2/LibraryManagementSystem/LibraryManagementSystem.Core/obj/Debug/net10.0/LibraryManagementSystem.Core.dll
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 8/Project_2/LibraryManagementSystem/LibraryManagementSystem.Core/obj/Debug/net10.0/refint/LibraryManagementSystem.Core.dll
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 8/Project_2/LibraryManagementSystem/LibraryManagementSystem.Core/obj/Debug/net10.0/LibraryManagementSystem.Core.pdb
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 8/Project_2/LibraryManagementSystem/LibraryManagementSystem.Core/obj/Debug/net10.0/ref/LibraryManagementSystem.Core.dll

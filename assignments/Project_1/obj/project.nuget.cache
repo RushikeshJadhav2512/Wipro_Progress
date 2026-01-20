@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "y1aIqG1KALI=",
+  "success": true,
+  "projectFilePath": "/Users/rushikeshjadhav/Desktop/Wipro clases/assignments/Project_1/MiddlewareDemo.csproj",
+  "expectedPackageFiles": [
+    "/Users/rushikeshjadhav/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/rushikeshjadhav/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/rushikeshjadhav/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.22/microsoft.netcore.app.host.osx-arm64.8.0.22.nupkg.sha512"
+  ],
+  "logs": []
+}

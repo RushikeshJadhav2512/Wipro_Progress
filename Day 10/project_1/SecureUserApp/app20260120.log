@@ -1,0 +1,23 @@
+2026-01-20 21:29:18.770 +05:30 [INF] Application started
+2026-01-20 21:29:51.691 +05:30 [ERR] Unexpected error in main loop
+System.Security.Cryptography.CryptographicException: Specified key is not a valid size for this algorithm.
+   at System.Security.Cryptography.SymmetricAlgorithm.SetKey(ReadOnlySpan`1 key)
+   at SecureUserApp.Program.Encrypt(String plainText) in /Users/rushikeshjadhav/Desktop/Wipro clases/Day 10/project_1/SecureUserApp/Program.cs:line 152
+   at SecureUserApp.Program.Register() in /Users/rushikeshjadhav/Desktop/Wipro clases/Day 10/project_1/SecureUserApp/Program.cs:line 111
+   at SecureUserApp.Program.Main() in /Users/rushikeshjadhav/Desktop/Wipro clases/Day 10/project_1/SecureUserApp/Program.cs:line 39
+2026-01-20 21:30:20.243 +05:30 [ERR] Unexpected error in main loop
+System.Security.Cryptography.CryptographicException: Specified key is not a valid size for this algorithm.
+   at System.Security.Cryptography.SymmetricAlgorithm.SetKey(ReadOnlySpan`1 key)
+   at SecureUserApp.Program.Encrypt(String plainText) in /Users/rushikeshjadhav/Desktop/Wipro clases/Day 10/project_1/SecureUserApp/Program.cs:line 152
+   at SecureUserApp.Program.Register() in /Users/rushikeshjadhav/Desktop/Wipro clases/Day 10/project_1/SecureUserApp/Program.cs:line 111
+   at SecureUserApp.Program.Main() in /Users/rushikeshjadhav/Desktop/Wipro clases/Day 10/project_1/SecureUserApp/Program.cs:line 39
+2026-01-20 21:30:36.197 +05:30 [WRN] Login failed for username: Rushi
+2026-01-20 21:30:59.577 +05:30 [INF] Users saved to file
+2026-01-20 21:30:59.578 +05:30 [INF] Application exited
+2026-01-20 21:33:46.117 +05:30 [INF] Application started
+2026-01-20 21:33:46.167 +05:30 [INF] Loaded 0 users from file
+2026-01-20 21:34:01.332 +05:30 [INF] Users saved to file
+2026-01-20 21:34:01.332 +05:30 [INF] User registered: rushi
+2026-01-20 21:34:12.126 +05:30 [INF] User logged in: rushi
+2026-01-20 21:34:18.763 +05:30 [INF] Users saved to file
+2026-01-20 21:34:18.763 +05:30 [INF] Application exited

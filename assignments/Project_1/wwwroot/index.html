@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.NET Core Middleware Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 .NET Core Middleware Demo</h1>
+            <p class="subtitle">A demonstration of middleware configuration and static file serving</p>
+        </header>
+
+        <main>
+            <section class="card">
+                <h2>📋 Project Overview</h2>
+                <p>This application demonstrates the core features of .NET Core including middleware configuration, request logging, and serving static files.</p>
+            </section>
+
+            <section class="card">
+                <h2>🔧 Middleware Features</h2>
+                <ul>
+                    <li><strong>Request Logging:</strong> All incoming requests are logged with method and path</li>
+                    <li><strong>Response Logging:</strong> Response status codes and duration are tracked</li>
+                    <li><strong>Error Handling:</strong> Custom error page for unhandled exceptions</li>
+                    <li><strong>Static Files:</strong> HTML, CSS, and JavaScript served from wwwroot</li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2>📁 Available Pages</h2>
+                <div class="link-list">
+                    <a href="index.html" class="active">🏠 Home (Static HTML)</a>
+                    <a href="css/style.css">🎨 CSS File</a>
+                    <a href="js/app.js">📜 JavaScript File</a>
+                    <a href="/health">❤️ Health Check API</a>
+                    <a href="/api/hello">👋 Hello API</a>
+                    <a href="/error-test">⚠️ Test Error Page</a>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>🧪 Interactive Demo</h2>
+                <button id="testButton" class="btn primary">Click to Test JavaScript</button>
+                <button id="fetchButton" class="btn secondary">Fetch API Data</button>
+                <div id="output" class="output-area"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Built with .NET Core 8.0 | Middleware Demo Application</p>
+        </footer>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
+
