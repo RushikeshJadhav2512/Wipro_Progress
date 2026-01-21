@@ -1,0 +1,15 @@
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 10/project_2/Project2/bin/Debug/net10.0/Project2
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 10/project_2/Project2/bin/Debug/net10.0/Project2.deps.json
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 10/project_2/Project2/bin/Debug/net10.0/Project2.runtimeconfig.json
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 10/project_2/Project2/bin/Debug/net10.0/Project2.dll
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 10/project_2/Project2/bin/Debug/net10.0/Project2.pdb
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 10/project_2/Project2/obj/Debug/net10.0/Project2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 10/project_2/Project2/obj/Debug/net10.0/Project2.AssemblyInfoInputs.cache
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 10/project_2/Project2/obj/Debug/net10.0/Project2.AssemblyInfo.cs
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 10/project_2/Project2/obj/Debug/net10.0/Project2.csproj.CoreCompileInputs.cache
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 10/project_2/Project2/obj/Debug/net10.0/Project2.sourcelink.json
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 10/project_2/Project2/obj/Debug/net10.0/Project2.dll
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 10/project_2/Project2/obj/Debug/net10.0/refint/Project2.dll
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 10/project_2/Project2/obj/Debug/net10.0/Project2.pdb
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 10/project_2/Project2/obj/Debug/net10.0/Project2.genruntimeconfig.cache
+/Users/rushikeshjadhav/Desktop/Wipro clases/Day 10/project_2/Project2/obj/Debug/net10.0/ref/Project2.dll
