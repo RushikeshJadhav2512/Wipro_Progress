@@ -1,0 +1,112 @@
+2026-01-21 10:21:17 From Faculty (Olympus) to Everyone:
+	SSRS (SQL Server Reporting Services)
+	
+2026-01-21 11:14:44 From Faculty (Olympus) to Everyone:
+	
+	“SOLID Principles tells us how to design where as Design patterns show what to implement “
+	
+2026-01-21 11:16:52 From Faculty (Olympus) to Everyone:
+	Screenshot 2026-01-21 at 111648.png
+	
+2026-01-21 11:22:34 From Faculty (Olympus) to Everyone:
+	The "Gang of Four" (.NET book) refers to the foundational "Design Patterns: Elements of Reusable Object-Oriented Software" by Gamma, Helm, Johnson, and Vlissides
+	
+2026-01-21 11:23:19 From Faculty (Olympus) to Everyone:
+	https://www.digitalocean.com/community/tutorials/gangs-of-four-gof-design-patterns
+	
+2026-01-21 17:47:14 From Chhavi Ganvir to Everyone:
+	Day10
+	
+2026-01-21 17:49:01 From Desu Shree Uma Maheswari to Everyone:
+	day 8 assessment 3 need to do sir
+	
+2026-01-21 17:52:43 From Mihika Ganta to Everyone:
+	day 10 is pending sir
+	
+2026-01-21 17:55:33 From Rutuja Dautpure to Everyone:
+	Day10 assignment is ongoing
+	
+2026-01-21 17:56:14 From Amita . to Everyone:
+	day 11 is  completed
+	
+2026-01-21 17:56:16 From DAMAN DEEP SAINI . to Everyone:
+	day 11 completed
+	
+2026-01-21 17:57:49 From KORAMUTLA SWARNALATHA . to Everyone:
+	day 10 Design Patterns Implementation is pending sir
+	
+2026-01-21 17:59:03 From Mule Haritha to Everyone:
+	Day 10 is pending sir
+	
+2026-01-21 18:00:52 From Amisha Kumari to Everyone:
+	day 11 completed
+	
+2026-01-21 18:00:54 From GORE DEVANSH RAVI . to Everyone:
+	Day 10 completed
+	
+2026-01-21 18:01:16 From Garla Dheeraj to Everyone:
+	day 10, design patterns implementation is pending sir
+	
+2026-01-21 18:01:18 From Ashwin Shedge to Everyone:
+	day 11 completed
+	
+2026-01-21 18:01:20 From Dasari Keerthi Sivani to Everyone:
+	day 10 is ongoing
+	
+2026-01-21 18:01:20 From S Y Muskhan to Everyone:
+	Day 11 completed sir
+	
+2026-01-21 18:01:24 From Rushikesh Jadhav . to Everyone:
+	Completed upto day 11
+	
+2026-01-21 18:01:25 From Pranjali Jadhav to Everyone:
+	Day 10 is still ongoing, and day 11 has been completed
+	
+2026-01-21 18:01:26 From Kavya Sri Polimeni to Everyone:
+	only day 10 pending sir
+	
+2026-01-21 18:01:28 From Ayan Kumar Paul . to Everyone:
+	day 11 completed
+	
+2026-01-21 18:01:28 From Surya Mounika Surapaneni to Everyone:
+	Day-11 Completed
+	
+2026-01-21 18:01:28 From Rekha Majjari to Everyone:
+	day 10 on going sir
+	
+2026-01-21 18:01:29 From Kethanapalli Durga Akhila to Everyone:
+	day-10 completed
+	
+2026-01-21 18:01:30 From Devika Parimi to Everyone:
+	Day 10 solid principles Pending sir
+	
+2026-01-21 18:01:34 From Gunugunuri Malleswari to Everyone:
+	day 11 completed sir
+	
+2026-01-21 18:01:35 From Sahil Kachare . to Everyone:
+	Day 10 Completed
+	
+2026-01-21 18:01:35 From AMAN . to Everyone:
+	day 11 completed sir
+	
+2026-01-21 18:01:37 From Nitika . to Everyone:
+	Day 11 completed
+	
+2026-01-21 18:01:44 From THUMATI TULASI VISHNU PRIYA . to Everyone:
+	upto DAY-11 completed sir
+	
+2026-01-21 18:01:47 From Priyanshu Deore to Everyone:
+	day 11 completed
+	
+2026-01-21 18:01:52 From Krunal Shashikumar Deshmukh . to Everyone:
+	completed till Day 10
+	
+2026-01-21 18:01:53 From MURTHY HEMANJALI to Everyone:
+	day 10 completed sir
+	
+2026-01-21 18:01:58 From Amisha Kumari to Everyone:
+	am i not audible??
+	
+2026-01-21 18:02:01 From Mythili Chirumamilla . to Everyone:
+	Day 10 completed
+	

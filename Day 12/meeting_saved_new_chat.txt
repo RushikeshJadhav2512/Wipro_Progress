@@ -1,0 +1,433 @@
+2026-01-22 09:12:37 From Faculty (Olympus) to Everyone:
+	Hi everyone, good morning !!
+	
+2026-01-22 09:13:05 From Rushikesh Jadhav . to Everyone:
+	Good morning Sir
+	
+2026-01-22 09:13:08 From Desu Shree Uma Maheswari to Everyone:
+	good morning sir
+	
+2026-01-22 09:13:09 From DAMAN DEEP SAINI . to Everyone:
+	Good morning sir
+	
+2026-01-22 09:13:46 From Mihika Ganta to Everyone:
+	Good Morning Sir
+	
+2026-01-22 09:14:18 From MURTHY HEMANJALI . to Everyone:
+	Good morning sir 
+	
+2026-01-22 09:14:20 From Dasari Keerthi Sivani to Everyone:
+	Good Morning sir
+	
+2026-01-22 09:14:30 From Ayan Kumar Paul . to Everyone:
+	Good Morning Sir
+	
+2026-01-22 09:15:14 From Ashwin Shedge to Everyone:
+	Good Morning Sir
+	
+2026-01-22 09:15:41 From Devika Parimi to Everyone:
+	Good Morning Sir
+	
+2026-01-22 09:16:22 From Amisha Kumari to Everyone:
+	good morning sir
+	
+2026-01-22 09:17:07 From Mule Haritha to Everyone:
+	good morning sir
+	
+2026-01-22 09:57:19 From Faculty (Olympus) to Everyone:
+	What is the assignment status for everyone ?
+	
+2026-01-22 09:58:35 From Surya Mounika Surapaneni to Everyone:
+	Completed Upto Day-11
+	
+2026-01-22 09:58:43 From S Y Muskhan . to Everyone:
+	Completed upto day 11 sir
+	
+2026-01-22 09:59:08 From Rushikesh Jadhav . to Everyone:
+	Completed upto day 11
+	
+2026-01-22 09:59:13 From Gunugunuri Malleswari to Everyone:
+	Completed upto day-11 sir
+	
+2026-01-22 09:59:21 From Dasari Keerthi Sivani to Everyone:
+	Completed upto day 11
+	
+2026-01-22 09:59:37 From Devika Parimi to Everyone:
+	Completed upto day 11 sir
+	
+2026-01-22 09:59:42 From Amisha Kumari to Everyone:
+	completed upto day 11
+	
+2026-01-22 09:59:54 From Mythili Chirumamilla . to Everyone:
+	Completed up to day11
+	
+2026-01-22 09:59:58 From Nitika . to Everyone:
+	Completed upto day-11
+	
+2026-01-22 10:00:16 From Kethanapalli Durga Akhila to Everyone:
+	completed upto day-11
+	
+2026-01-22 10:00:18 From Ayan Kumar Paul . to Everyone:
+	Completed upto day 11
+	
+2026-01-22 10:00:57 From Gona Saicharan . to Everyone:
+	Completed up to Day 11.
+	
+2026-01-22 10:01:28 From Rutuja Dautpure to Everyone:
+	Completed upto Day11
+	
+2026-01-22 10:02:08 From Chhavi Ganvir to Everyone:
+	Completed till Day 11
+	
+2026-01-22 10:02:42 From Pranjali Jadhav to Everyone:
+	Completed up to Day 11
+	
+2026-01-22 10:03:53 From Mule Haritha to Everyone:
+	Completed up to Day 11
+	
+2026-01-22 10:04:03 From Amita . to Everyone:
+	completed till day 11
+	
+2026-01-22 10:09:05 From DAMAN DEEP SAINI . to Everyone:
+	completed till day 11
+	
+2026-01-22 10:09:46 From Garla Dheeraj to Everyone:
+	Completed till day 11
+	
+2026-01-22 10:10:55 From THUMATI TULASI VISHNU PRIYA . to Everyone:
+	Completed upto day-11
+	
+2026-01-22 10:11:44 From KORAMUTLA SWARNALATHA . to Everyone:
+	completed upto d11
+	
+2026-01-22 10:11:50 From CHANDA SMITHESH . to Everyone:
+	Completed till day-11
+	
+2026-01-22 10:15:02 From Mihika Ganta to Everyone:
+	completed till day 11 but i missed day 10 solid principles
+	
+2026-01-22 10:17:24 From Ashwin Shedge to Everyone:
+	completed till day 11
+	
+2026-01-22 10:35:30 From Suhani Saluja . to Everyone:
+	completed day 11
+	
+2026-01-22 10:57:21 From Desu Shree Uma Maheswari to Everyone:
+	completed day 11
+	
+2026-01-22 10:59:08 From Guntaka Likitha Ram . to Everyone:
+	completed day 11
+	
+2026-01-22 11:28:55 From Faculty (Olympus) to Everyone:
+	git commit -m "Initial commit - .NET project setup"
+	
+2026-01-22 11:29:35 From Faculty (Olympus) to Everyone:
+	git remote add origin { your repo link }
+	
+2026-01-22 11:29:55 From Faculty (Olympus) to Everyone:
+	git branch -M main
+	
+2026-01-22 11:30:02 From Faculty (Olympus) to Everyone:
+	git push -u origin main
+	
+2026-01-22 11:32:55 From Faculty (Olympus) to Everyone:
+	git config --global credential.helper manager
+	
+2026-01-22 11:33:28 From Faculty (Olympus) to Everyone:
+	git push -u origin main
+	
+2026-01-22 11:35:32 From Faculty (Olympus) to Everyone:
+	git commit -m "Initial commit - .NET project setup"
+	
+2026-01-22 11:37:18 From Surya Mounika Surapaneni to Everyone:
+	Another Way:-
+	1.Create respo in GitHub (copy the link)
+	2.Desktop-Right click-Select git bash-
+	Command-->git clone (ur repo link)
+	
+2026-01-22 11:43:29 From Faculty (Olympus) to Everyone:
+	git branch -M main
+	
+2026-01-22 11:43:39 From Faculty (Olympus) to Everyone:
+	git push -u origin main
+	
+2026-01-22 11:45:53 From Faculty (Olympus) to Everyone:
+	git remote -v
+	
+2026-01-22 11:51:24 From Surya Mounika Surapaneni to Everyone:
+	esc  :q!
+	
+2026-01-22 11:51:55 From Faculty (Olympus) to Everyone:
+	Screenshot 2026-01-22 at 115149.png
+	
+2026-01-22 11:52:06 From Faculty (Olympus) to Everyone:
+	Screenshot 2026-01-22 at 115204.png
+	
+2026-01-22 11:53:37 From Faculty (Olympus) to Everyone:
+	Screenshot 2026-01-22 at 115333.png
+	
+2026-01-22 11:53:51 From Faculty (Olympus) to Everyone:
+	Screenshot 2026-01-22 at 115348.png
+	
+2026-01-22 11:55:13 From Faculty (Olympus) to Everyone:
+	Screenshot 2026-01-22 at 115510.png
+	
+2026-01-22 11:55:25 From Faculty (Olympus) to Everyone:
+	Screenshot 2026-01-22 at 115524.png
+	
+2026-01-22 11:55:39 From Faculty (Olympus) to Everyone:
+	Screenshot 2026-01-22 at 115537.png
+	
+2026-01-22 11:55:52 From Faculty (Olympus) to Everyone:
+	Screenshot 2026-01-22 at 115549.png
+	
+2026-01-22 11:56:10 From Faculty (Olympus) to Everyone:
+	Screenshot 2026-01-22 at 115608.png
+	
+2026-01-22 12:18:18 From Faculty (Olympus) to Everyone:
+	CREATE TABLE Students (
+	    StudentId INT PRIMARY KEY,
+	    Email VARCHAR(100) UNIQUE,
+	    Age INT CHECK (Age >= 18),
+	    CourseId INT
+	);
+	
+2026-01-22 12:18:25 From Faculty (Olympus) to Everyone:
+	INSERT INTO Students VALUES (1, 'rahul@gmail.com', 20, 101);
+	INSERT INTO Students VALUES (2, 'neha@gmail.com', 22, 102);
+	INSERT INTO Students VALUES (3, 'amit@gmail.com', 19, 101);
+	
+2026-01-22 12:24:36 From Faculty (Olympus) to Everyone:
+	-- Aggregate functions 
+	--Sum, Average , length etc 
+	-- total no of students 
+	SELECT COUNT(*) AS TotalStudents FROM Students;
+	-- Average Marks or Age 
+	SELECT AVG(Age) AS AverageAge FROM Students;
+	
+2026-01-22 12:31:21 From Faculty (Olympus) to Everyone:
+	Screenshot 2026-01-22 at 123116.png
+	
+2026-01-22 12:37:52 From Faculty (Olympus) to Everyone:
+	Screenshot 2026-01-22 at 123749.png
+	
+2026-01-22 12:52:56 From Faculty (Olympus) to Everyone:
+	Screenshot 2026-01-22 at 125252.png
+	
+2026-01-22 12:54:36 From Rekha Majjari to Everyone:
+	sql
+	
+2026-01-22 12:54:37 From jyothi sree . to Everyone:
+	C Sharp
+	
+2026-01-22 12:54:39 From Rushikesh Jadhav . to Everyone:
+	Sql
+	
+2026-01-22 12:54:41 From Amita . to Everyone:
+	SQL machine test
+	
+2026-01-22 12:54:42 From Amisha Kumari to Everyone:
+	SQL
+	
+2026-01-22 12:54:42 From DAMAN DEEP SAINI . to Everyone:
+	SQL
+	
+2026-01-22 12:54:43 From Rutuja Dautpure to Everyone:
+	Sql
+	
+2026-01-22 12:54:44 From Nitika . to Everyone:
+	sql
+	
+2026-01-22 12:54:44 From Mihika Ganta to Everyone:
+	sql
+	
+2026-01-22 12:54:44 From Desu Shree Uma Maheswari to Everyone:
+	sql
+	
+2026-01-22 12:54:45 From MURTHY HEMANJALI to Everyone:
+	sql
+	
+2026-01-22 12:54:46 From Mule Haritha to Everyone:
+	SQL
+	
+2026-01-22 12:54:46 From Mythili Chirumamilla . to Everyone:
+	sql
+	
+2026-01-22 12:54:47 From Kavya Sri Polimeni to Everyone:
+	sql
+	
+2026-01-22 12:54:51 From CHANDA SMITHESH . to Everyone:
+	SQL
+	
+2026-01-22 12:54:52 From Kethanapalli Durga Akhila to Everyone:
+	sql
+	
+2026-01-22 12:54:53 From Pranjali Jadhav to Everyone:
+	SQL
+	
+2026-01-22 12:54:54 From Gunugunuri Malleswari to Everyone:
+	SQL
+	
+2026-01-22 12:54:55 From Devika Parimi to Everyone:
+	sql
+	
+2026-01-22 12:54:55 From AMAN . to Everyone:
+	sql
+	
+2026-01-22 12:54:55 From Guntaka Likitha Ram . to Everyone:
+	sql
+	
+2026-01-22 12:54:56 From Ashwin Shedge to Everyone:
+	sql
+	
+2026-01-22 12:54:58 From Ayan Kumar Paul . to Everyone:
+	sql
+	
+2026-01-22 12:55:04 From Gona Saicharan . to Everyone:
+	SQL
+	
+2026-01-22 12:55:05 From Suhani Saluja . to Everyone:
+	sql
+	
+2026-01-22 12:55:17 From Garla Dheeraj to Everyone:
+	sql
+	
+2026-01-22 12:55:33 From KORAMUTLA SWARNALATHA . to Everyone:
+	SQL
+	
+2026-01-22 12:55:37 From Krunal Shashikumar Deshmukh . to Everyone:
+	sql
+	
+2026-01-22 12:55:43 From Priyanshu Deore to Everyone:
+	sql
+	
+2026-01-22 12:55:46 From Sahil Kachare . to Everyone:
+	SQL
+	
+2026-01-22 12:55:47 From Surya Mounika Surapaneni to Everyone:
+	SQL
+	
+2026-01-22 12:59:40 From Faculty (Olympus) to Everyone:
+	-- Access control  Grant and Revoke 
+	 GRANT SELECT , INSERT ON Students to User1; -- user 1 is allowed to perform these operations 
+	 REVOKE INSERT ON Students  FROM User1; -- revoking user 1 to perform insert operations
+	
+2026-01-22 13:08:00 From Faculty (Olympus) to Everyone:
+	Screenshot 2026-01-22 at 130756.png
+	
+2026-01-22 13:12:36 From Faculty (Olympus) to Everyone:
+	Screenshot 2026-01-22 at 131231.png
+	
+2026-01-22 15:34:53 From Faculty (Olympus) to Everyone:
+	https://learn.microsoft.com/en-us/power-platform/
+	
+2026-01-22 15:36:41 From Faculty (Olympus) to Everyone:
+	https://learn.microsoft.com/en-us/credentials/certifications/power-platform-fundamentals/?utm_source=chatgpt.com&practice-assessment-type=certification#certification-practice-for-the-exam
+	
+2026-01-22 15:50:32 From Faculty (Olympus) to Everyone:
+	https://learn.microsoft.com/en-in/training/student-hub/
+	
+2026-01-22 15:52:46 From Faculty (Olympus) to Everyone:
+	https://www.microsoft.com/en-in/events
+	
+2026-01-22 15:53:08 From Faculty (Olympus) to Everyone:
+	https://learn.microsoft.com/en-in/credentials/certifications/power-platform-fundamentals/?practice-assessment-type=certification
+	
+2026-01-22 16:37:59 From Faculty (Olympus) to Everyone:
+	use ms_dynamicsDB;
+	-- Courses( Master table )
+	-- Students ( transaction Table)
+	-- Trainers( Self Join use cases)
+	
+	CREATE TABLE MyCourses (
+	    CourseId INT PRIMARY KEY,
+	    CourseName VARCHAR(100)
+	);
+	
+	CREATE TABLE My_Students (
+	    StudentId INT PRIMARY KEY,
+	    StudentName VARCHAR(50),
+	    CourseId INT
+	);
+	CREATE TABLE Trainers (
+	    TrainerId INT PRIMARY KEY,
+	    TrainerName VARCHAR(50),
+	    ManagerId INT
+	);
+	
+2026-01-22 16:54:52 From Faculty (Olympus) to Everyone:
+	Screenshot 2026-01-22 at 165447.png
+	
+2026-01-22 16:58:29 From Faculty (Olympus) to Everyone:
+	Screenshot 2026-01-22 at 165826.png
+	
+2026-01-22 17:09:51 From Faculty (Olympus) to Everyone:
+	
+	--Types of Joins
+	Inner Join  -- It will return common value in both the table
+	-- Student who have enrolled in a course
+	
+	SELECT  s.StudentName,s.StudentId, c.CourseName, c.CourseId
+	FROM My_Students s
+	INNER JOIN MyCourses c
+	ON s.CourseID = c.CourseID;
+	
+	--Left join : will retun all left table record + matched right records
+	- List of all students including those not enrolled 
+	
+	SELECT s.StudentName,s.StudentId, c.CourseName, c.CourseId
+	FROM My_Students s
+	LEFT JOIN MyCourses c
+	ON s.CourseId = c.CourseId;
+	
+	
+	-- SELF join :  Trainer - manager -  hierarchy
+	-- univerity _ HOD- Faculty hierarchy 
+	
+	SELECT 
+	    t1.TrainerName AS Trainers,
+	    t2.TrainerName AS Manager
+	    FROM Trainers t1
+	    LEFT JOIN Trainers t2
+	    ON t1.ManagerId = t2.TrainerId;
+	--table  joins to itself 
+	
+	
+	-- CROSS join : Itreturns cartesian prodcuct
+	-- All possible studnt and course combination 
+	-- (Used in testing and simulations)
+	
+	SELECT s.studentname, c.Coursename
+	FROM My_Students s
+	CROSS JOIN MyCourses c;
+	
+2026-01-22 17:09:54 From Faculty (Olympus) to Everyone:
+	
+	-- RIGHT Join : All right reocrd +  matching reocord
+	-- It will display all courses if if there is no enrolled student
+	SELECT s.StudentName,s.StudentId, c.CourseName, c.CourseId
+	FROM My_Students s
+	RIGHT JOIN MyCourses c
+	ON s.CourseId = c.CourseId;
+	
+	-- Full Outer Join 
+	-- It return all the records frm both table 
+	-- Complete Enrollement Audit 
+	
+	SELECT s.StudentName,s.StudentId, c.CourseName, c.CourseId
+	FROM My_Students s
+	FULL OUTER JOIN MyCourses c
+	ON s.CourseId = c.CourseId;
+	
+2026-01-22 17:10:28 From Faculty (Olympus) to Everyone:
+	Screenshot 2026-01-22 at 171024.png
+	
+2026-01-22 17:41:48 From Faculty (Olympus) to Everyone:
+	Screenshot 2026-01-22 at 174144.png
+	
+2026-01-22 17:43:12 From Faculty (Olympus) to Everyone:
+	Screenshot 2026-01-22 at 174308.png
+	
+2026-01-22 17:43:34 From Faculty (Olympus) to Everyone:
+	Screenshot 2026-01-22 at 174331.png
+	
