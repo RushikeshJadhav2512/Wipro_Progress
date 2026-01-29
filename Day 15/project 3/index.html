@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyWebDemo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">MyWebDemo</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#media">Media</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-primary text-white text-center p-5">
+        <h1>Welcome to HTML5 & Bootstrap Demo</h1>
+        <p class="lead">Static webpage covering modern UI components</p>
+        <a href="#services" class="btn btn-light">Get Started</a>
+    </section>
+
+    <!-- Location Finder -->
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">My Location Finder</h2>
+        <div class="text-center">
+            <button class="btn btn-primary" onclick="getLocation()">Get My Location</button>
+        </div>
+        <div class="alert alert-info mt-4" id="output">
+            Location details will appear here
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <section id="services" class="container my-5">
+        <h2 class="mb-4 text-center">Our Services</h2>
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Design</h5>
+                        <p class="card-text">Modern and responsive layouts.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Development</h5>
+                        <p class="card-text">Clean HTML, CSS and JS code.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Support</h5>
+                        <p class="card-text">Reliable technical assistance.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Course Details -->
+    <main class="container my-5">
+        <section>
+            <h2>Course Details</h2>
+
+            <table class="table table-bordered">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Course</th>
+                        <th>Duration</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML5</td>
+                        <td>10 Hours</td>
+                        <td>Active</td>
+                    </tr>
+                    <tr>
+                        <td>Bootstrap</td>
+                        <td>8 Hours</td>
+                        <td>Active</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h5>Key Features</h5>
+            <ul>
+                <li>Responsive Design</li>
+                <li>HTML5 Media</li>
+                <li>Bootstrap Components</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Media Section -->
+    <section id="media" class="container my-5">
+        <h2>Media Section</h2>
+
+        <p>Audio Player:</p>
+        <audio controls>
+            <source src="sample-audio.mp3" type="audio/mpeg">
+        </audio>
+
+        <p class="mt-3">Video Player:</p>
+        <video width="320" controls>
+            <source src="sample-video.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <!-- Scripts -->
+    <script>
+        function getLocation() {
+            const output = document.getElementById("output");
+
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition, showError);
+            } else {
+                output.innerHTML = "Geolocation is not supported by this browser.";
+            }
+        }
+
+        function showPosition(position) {
+            document.getElementById("output").innerHTML =
+                "Latitude: " + position.coords.latitude +
+                "<br>Longitude: " + position.coords.longitude;
+        }
+
+        function showError() {
+            document.getElementById("output").innerHTML =
+                "Permission denied or location unavailable.";
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+-- Active: 1768968858622@@localhost@3306
+CREATE TABLE Employees (
+    EmployeeID INT IDENTITY (1, 1) PRIMARY KEY,
+    Name VARCHAR(100) NOT NULL,
+    Salary DECIMAL(10, 2) NOT NULL
+);
