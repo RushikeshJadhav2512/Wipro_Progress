@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Society Event Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: lightblue;
+        }
+
+        #eventList {
+            list-style-type: none;
+            padding: 0;
+            width: 300px;
+        }
+
+        #eventList li {
+            padding: 10px;
+            border: 1px solid black;
+            margin: 5px 0;
+            cursor: pointer;
+            background-color: white;
+        }
+
+        #eventList li:hover {
+            background-color: yellow;
+        }
+
+        #eventDetails {
+            margin-top: 20px;
+            border: 2px solid black;
+            padding: 15px;
+            width: 300px;
+            background-color: white;
+        }
+
+        button {
+            padding: 8px 15px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        #registerBtn {
+            background-color: green;
+            color: white;
+        }
+
+        #unregisterBtn {
+            background-color: red;
+            color: white;
+        }
+
+        #addEventBtn {
+            background-color: blue;
+            color: white;
+        }
+
+        .selected {
+            background-color: orange !important;
+        }
+
+        input {
+            padding: 5px;
+            margin: 5px;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Society Event Registration</h2>
+
+    <!-- List of Events -->
+    <ul id="eventList"></ul>
+
+    <!-- Event Details -->
+    <div id="eventDetails">
+        <h3 id="eventTitle">Select an Event</h3>
+        <p id="eventDesc">Click an event to see details</p>
+        <p>Participants: <span id="count">0</span></p>
+        <button id="registerBtn">Register</button>
+        <button id="unregisterBtn">Unregister</button>
+    </div>
+
+    <!-- Add New Event -->
+    <div style="margin-top: 20px;">
+        <h3>Add New Event</h3>
+        <input type="text" id="newEventTitle" placeholder="Event Title"><br>
+        <input type="text" id="newEventDesc" placeholder="Description"><br>
+        <input type="number" id="newEventCount" placeholder="Participants" value="0"><br>
+        <button id="addEventBtn">Add Event</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

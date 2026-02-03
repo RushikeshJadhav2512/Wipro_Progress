@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Random User Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        #fetchBtn {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #fetchBtn:hover {
+            background-color: #45a049;
+        }
+
+        #userCard {
+            display: none;
+            margin-top: 30px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #userImage {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        #userName {
+            font-size: 24px;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        #userEmail {
+            color: #666;
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        #userPhone {
+            color: #666;
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        #loading {
+            display: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Random User Generator</h1>
+
+    <button id="fetchBtn">Get Random User</button>
+
+    <div id="loading">Loading...</div>
+
+    <div id="userCard">
+        <img id="userImage" src="" alt="User Profile Picture">
+        <h2 id="userName"></h2>
+        <p id="userEmail"></p>
+        <p id="userPhone"></p>
+    </div>
+
+    <script>
+        // ============================================
+        // Exercise 2: Fetch API - Random User Display
+        // ============================================
+
+        // Get HTML elements
+        var fetchBtn = document.getElementById("fetchBtn");
+        var userCard = document.getElementById("userCard");
+        var userImage = document.getElementById("userImage");
+        var userName = document.getElementById("userName");
+        var userEmail = document.getElementById("userEmail");
+        var userPhone = document.getElementById("userPhone");
+        var loading = document.getElementById("loading");
+
+        // Add click event to button
+        fetchBtn.onclick = function () {
+            // Show loading message
+            loading.style.display = "block";
+            userCard.style.display = "none";
+
+            console.log("Fetching random user data...");
+
+            // Fetch data from random user API
+            fetch("https://randomuser.me/api/")
+                .then(function (response) {
+                    // Check if response is OK
+                    if (!response.ok) {
+                        throw new Error("HTTP error! Status: " + response.status);
+                    }
+                    // Convert response to JSON
+                    return response.json();
+                })
+                .then(function (data) {
+                    // Hide loading
+                    loading.style.display = "none";
+
+                    // Display user data
+                    console.log("User Data Retrieved Successfully!");
+                    console.log(data);
+
+                    // Get user information from the response
+                    var user = data.results[0];
+
+                    // Update HTML elements with user data
+                    userImage.src = user.picture.large;
+                    userName.textContent = user.name.first + " " + user.name.last;
+                    userEmail.textContent = "Email: " + user.email;
+                    userPhone.textContent = "Phone: " + user.phone;
+
+                    // Show user card
+                    userCard.style.display = "block";
+                })
+                .catch(function (error) {
+                    // Handle any errors
+                    loading.style.display = "none";
+                    console.error("Error fetching data:", error);
+                    alert("Error fetching user data. Please try again.");
+                });
+        };
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickCart - Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>QuickCart</h1>
+            <p>Shopping Cart Utility Demo</p>
+        </header>
+
+        <section class="products-section">
+            <h2>Products</h2>
+            <div id="productsList" class="products-grid"></div>
+        </section>
+
+        <section class="cart-section">
+            <h2>Your Cart</h2>
+            <div id="cartList" class="cart-items"></div>
+
+            <div class="cart-summary">
+                <div class="summary-row">
+                    <span>Subtotal:</span>
+                    <span id="subtotal">₹0</span>
+                </div>
+                <div class="summary-row">
+                    <span>Discount (10%):</span>
+                    <span id="discount">-₹0</span>
+                </div>
+                <div class="summary-row">
+                    <span>After Discount:</span>
+                    <span id="afterDiscount">₹0</span>
+                </div>
+                <div class="summary-row">
+                    <span>Tax (18%):</span>
+                    <span id="tax">₹0</span>
+                </div>
+                <div class="summary-row total">
+                    <span>Final Total:</span>
+                    <span id="finalTotal">₹0</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="filter-section">
+            <h2>Filter Products by Category</h2>
+            <div class="filter-buttons">
+                <button onclick="filterProducts('Electronics')">Electronics</button>
+                <button onclick="filterProducts('Stationery')">Stationery</button>
+                <button onclick="filterProducts('All')">All Products</button>
+            </div>
+            <div id="filteredProducts" class="products-grid"></div>
+        </section>
+
+        <section class="search-section">
+            <h2>Search Product by ID</h2>
+            <div class="search-box">
+                <input type="number" id="searchId" placeholder="Enter Product ID">
+                <button onclick="searchProduct()">Search</button>
+            </div>
+            <div id="searchResult" class="search-result"></div>
+        </section>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.slider-box {
+    width: 300px;
+    margin-top: 10px;
+}
+
+.carousel img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Slick Carousel Custom Styles */
+.carousel {
+    max-width: 600px;
+}
+
+.carousel .slick-prev,
+.carousel .slick-next {
+    z-index: 1;
+}
+
+.carousel .slick-prev {
+    left: 10px;
+}
+
+.carousel .slick-next {
+    right: 10px;
+}
+
