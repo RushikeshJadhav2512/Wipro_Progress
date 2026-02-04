@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "rEksTIwxF+Q=",
+  "success": true,
+  "projectFilePath": "/Users/rushikeshjadhav/Desktop/Wipro clases/Day 1/Demo Reading Input user/Day_1_DEmo2_ReadingInput_User.csproj",
+  "expectedPackageFiles": [
+    "/Users/rushikeshjadhav/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/rushikeshjadhav/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/rushikeshjadhav/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.22/microsoft.netcore.app.host.osx-arm64.8.0.22.nupkg.sha512"
+  ],
+  "logs": []
+}
