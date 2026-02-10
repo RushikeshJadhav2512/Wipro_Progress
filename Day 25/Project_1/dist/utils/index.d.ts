@@ -1,0 +1,33 @@
+import { TaskStatus, TaskPriority, Task, TaskFilter, TaskSort } from '../types';
+export declare function generateId(): string;
+export declare function formatDate(date: Date | string, locale?: string): string;
+export declare function formatRelativeTime(date: Date | string): string;
+export declare function formatFileSize(bytes: number): string;
+export declare function truncateText(text: string, maxLength: number): string;
+export declare function debounce<T extends (...args: Parameters<T>) => ReturnType<T>>(func: T, wait: number): (...args: Parameters<T>) => void;
+export declare function throttle<T extends (...args: Parameters<T>) => ReturnType<T>>(func: T, limit: number): (...args: Parameters<T>) => void;
+export declare function deepClone<T>(obj: T): T;
+export declare function arraysEqual<T>(arr1: T[], arr2: T[]): boolean;
+export declare function unique<T>(arr: T[], key?: keyof T): T[];
+export declare function groupBy<T>(arr: T[], key: keyof T): Record<string, T[]>;
+export declare function sortTasks(tasks: Task[], sort: TaskSort[]): Task[];
+export declare function filterTasks(tasks: Task[], filter: TaskFilter): Task[];
+export declare function calculateCompletionPercentage(task: Task): number;
+export declare function isValidEmail(email: string): boolean;
+export declare function capitalize(str: string): string;
+export declare function slugify(str: string): string;
+export declare function getInitials(name: string): string;
+export declare function getPriorityColor(priority: TaskPriority): string;
+export declare function getStatusColor(status: TaskStatus): string;
+export declare function isOverdue(dueDate: Date | string | undefined): boolean;
+export declare function isDueSoon(dueDate: Date | string | undefined): boolean;
+export declare function getDaysUntilDue(dueDate: Date | string | undefined): number | null;
+export declare const Storage: {
+    get<T>(key: string, defaultValue: T): T;
+    set<T>(key: string, value: T): void;
+    remove(key: string): void;
+    clear(): void;
+};
+export declare function delay(ms: number): Promise<void>;
+export declare function retry<T>(fn: () => Promise<T>, maxRetries?: number, baseDelay?: number): Promise<T>;
+//# sourceMappingURL=index.d.ts.map
