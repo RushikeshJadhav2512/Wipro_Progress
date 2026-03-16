@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\HMS",
+    "\\HMS\\CareWell.HealthcareSystem",
+    "\\HMS\\CareWell.HealthcareSystem\\Controllers",
+    "\\HMS\\CareWell.HealthcareSystem\\Data",
+    "\\HMS\\CareWell.HealthcareSystem\\Migrations",
+    "\\HMS\\CareWell.HealthcareSystem\\Models",
+    "\\HMS\\CareWell.HealthcareSystem\\Properties",
+    "\\HMS\\CareWell.HealthcareSystem\\Repositories",
+    "\\HMS\\CareWell.HealthcareSystem\\Services"
+  ],
+  "SelectedNode": "\\HMS\\CareWell.HealthcareSystem\\Services\\PatientService.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,145 @@
+# Business Rules Documentation
+## CareWell Health Services - Patient Appointment & Care Management System
+
+---
+
+## 1. Patient Management Rules
+
+### 1.1 Patient Registration
+- **Rule P1**: All patients must provide a valid email address
+  - Format: standard email format (user@domain.com)
+  - Unique: No duplicate emails allowed
+  
+- **Rule P2**: Patient phone number is required
+  - Format: Any numeric string, minimum 10 digits
+  - Used for appointment notifications
+
+- **Rule P3**: Date of birth is mandatory
+  - Must be a valid date
+  - Patient must be at least 0 years old (born today or earlier)
+  - Cannot be a future date
+
+- **Rule P4**: Each patient receives a unique system-generated ID
+  - Format: PAT + timestamp + random string
+
+### 1.2 Patient Status
+- **Rule P5**: Patients can be marked as Active or Inactive
+- **Rule P6**: Inactive patients cannot schedule new appointments
+- **Rule P7**: Patient history remains accessible even when inactive
+
+---
+
+## 2. Appointment Scheduling Rules
+
+### 2.1 Double Booking Prevention
+- **Rule A1**: A doctor cannot have two appointments at the same date/time
+  - Check: Same doctor + overlapping time slots
+  - Exception: If either appointment is cancelled or marked NoShow
+
+- **Rule A2**: Appointment times must be in the future
+  - Cannot schedule appointments in the past
+  - Minimum: Current time + 15 minutes
+
+### 2.2 Appointment Duration
+- **Rule A3**: Default appointment duration is 30 minutes
+- **Rule A4**: Specialist consultations may be scheduled for 45-60 minutes
+
+### 2.3 Scheduling Window
+- **Rule A5**: Appointments can be scheduled up to 90 days in advance
+- **Rule A6**: Same-day appointments allowed with availability check
+
+---
+
+## 3. Appointment Status Rules
+
+### 3.1 Valid Statuses
+| Status | Description | Terminal State |
+|--------|-------------|----------------|
+| Scheduled | Newly created appointment | No |
+| Confirmed | Patient confirmed attendance | No |
+| InProgress | Patient checked in, waiting for doctor | No |
+| Completed | Consultation finished | Yes |
+| Cancelled | Appointment cancelled by staff/patient | Yes |
+| NoShow | Patient did not arrive | Yes |
+
+### 3.2 Status Transitions
+- **Rule S1**: Scheduled → Confirmed (manual or automated)
+- **Rule S2**: Confirmed → InProgress (patient check-in)
+- **Rule S3**: InProgress → Completed (after consultation)
+- **Rule S4**: Scheduled/Confirmed → Cancelled (before appointment time)
+- **Rule S5**: Scheduled/Confirmed → NoShow (past appointment time, patient absent)
+
+### 3.3 Status Transition Validation
+- **Rule S6**: Cannot change status from a terminal state (Completed, Cancelled, NoShow)
+- **Rule S7**: Cannot mark as NoShow before appointment time has passed
+
+---
+
+## 4. Cancellation Rules
+
+### 4.1 Cancellation Timeframe
+- **Rule C1**: Appointments can be cancelled up to 2 hours before scheduled time
+- **Rule C2**: Emergency cancellations allowed at any time with reason
+
+### 4.2 Cancellation Reasons
+- **Rule C3**: Cancellation reason is mandatory
+- **Rule C4**: Common reasons: Patient request, Doctor unavailable, Administrative
+
+---
+
+## 5. Doctor Management Rules
+
+### 5.1 Availability
+- **Rule D1**: Doctors can be marked as Available or Unavailable
+- **Rule D2**: Unavailable doctors cannot receive new appointments
+
+### 5.2 Department Assignment
+- **Rule D3**: Each doctor belongs to one department
+- **Rule D4**: Doctors can only take appointments for their specialty
+
+---
+
+## 6. Reporting Rules
+
+### 6.1 No-Show Calculation
+- **Rule R1**: No-Show = Appointments with status 'NoShow'
+- **Rule R2**: No-Show Rate = (NoShows / Total Appointments) × 100
+
+### 6.2 Utilization Calculation
+- **Rule R3**: Utilization Rate = (Completed / Total Scheduled) × 100
+- **Rule R4**: Excludes cancelled appointments from calculation
+
+### 6.3 Date Ranges
+- **Rule R5**: Default report period is last 30 days
+- **Rule R6**: Maximum report period is 365 days
+
+---
+
+## 7. Validation Rules Summary
+
+| Field | Required | Format | Validation |
+|-------|----------|--------|------------|
+| Patient Name | Yes | String | Min 2 chars, Max 100 |
+| Patient Email | Yes | Email | Valid format, unique |
+| Patient Phone | Yes | String | Min 10 digits |
+| Patient DOB | Yes | Date | Not future, valid date |
+| Appointment Date | Yes | DateTime | Future only |
+| Appointment Reason | Yes | String | Min 5 chars |
+| Doctor | Yes | ID | Must exist, be available |
+
+---
+
+## 8. Error Messages
+
+| Error Type | Message | Resolution |
+|------------|---------|-------------|
+| Double Booking | "Doctor already has an appointment at this time" | Choose different time/doctor |
+| Invalid Status | "Invalid status transition from {current} to {target}" | Check valid transitions |
+| Patient Inactive | "Patient is not eligible for scheduling" | Reactivate patient first |
+| Past Date | "Appointment cannot be scheduled in the past" | Choose future date |
+| Required Field | "{Field} is required" | Fill in required fields |
+
+---
+
+*Document Version: 1.0*
+*Last Updated: 2024*
